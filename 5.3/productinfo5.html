@@ -74,7 +74,10 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+            <ul
+              class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+              style="--bs-scroll-height: 100px"
+            >
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="info.html"
                   >Giới thiệu</a
@@ -140,59 +143,74 @@
           </div>
         </div>
       </nav>
-      <div class="container-fluid" style="width: 100%;">
+      <div class="container-fluid" style="width: 100%">
         <div class="row">
-          <div
-            class="col-10"
-            style=" padding: 30px"
-          >
-            <div class="row gap-4">
-              <div class="card col-4" style="width: 350px; height: fit-content;">
-                <h5 class="card-header">Tóc thẳng</h5>
-                <img src="t1.jpg" height="200px" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <p class="card-text"></p>
-                  <a href="productinfo1.html" class="stretched-link"></a>
-                  <a href="#" class="btn btn-primary float-end">Thêm vào giỏ hàng</a>
+          <div class="col-10" style="padding: 30px">
+            <div class="card mb-3" style="width: 100%; height: fit-content">
+              <div class="row g-0">
+                <div class="col-md-6" style="display: flex;justify-content: center;align-items: end;">
+                  <img
+                    src="t5.jpg"
+                    class="img-fluid img-fluid rounded"
+                    alt="..."
+                    width="400"
+                    height="100"
+                    
+                  />
+                </div>
+                <div class="col-md-6">
+                  <div class="card-body">
+                    <h6 class="card-text">
+                      <small class="text-muted">Tóc giả</small>
+                    </h6>
+                    <h5 class="h1 card-title">
+                      Tóc ngắn
+                    </h5>
+                    <div
+                      class="d-grid gap-2 d-md-block"
+                      style="
+                        border-top: 1px solid gainsboro;
+                        border-bottom: 1px solid gainsboro;
+                        padding-bottom: 20px;
+                        padding-top: 20px;
+                        margin-bottom: 5px;
+                      "
+                    >
+                      <p class="display-6 lead col-12">Giá: 300.000VND</p>
+                      <form class="d-flex">
+                        <input
+                          class="form-control me-2"
+                          style="width: 100px"
+                          type="number"
+                          value="1"
+                          placeholder="1"
+                          aria-label="Search"
+                        />
+                        <div class="d-grid gap-2 d-md-block">
+                          <button class="btn btn-primary" type="button">
+                            THÊM VÀO GIỎ HANG
+                          </button>
+                          <button class="btn btn-primary" type="button">
+                            YÊU THÍCH
+                          </button>
+                        </div>
+                      </form>
+                    </div>
+                    <h6 class="card-text fw-bold">Thông tin sản phẩm.</h6>
+                    <p class="card-text">
+                      Chất liệu: Tóc thật<br />
+                      Màu sắc: Hơi nâu <br />
+                      Loại: Tóc giả nguyên đầu<br />
+                      Độ dài: 45cm<br />
+                      Tình trạng: Mới<br />
+                      
+                    </p>
+                    <p class="card-text">
+                      <small class="text-muted">Sản phẩm chất lượng</small>
+                    </p>
+                  </div>
                 </div>
               </div>
-              <div class="card col-4" style="width: 350px; height: fit-content;">
-                <h5 class="card-header">Tóc xoăn</h5>
-                <img src="t2.jpg" height="200px" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <p class="card-text"></p>
-                  <a href="productinfo2.html" class="stretched-link"></a>
-                  <a href="#" class="btn btn-primary float-end">Thêm vào giỏ hàng</a>
-                </div>
-              </div>
-              <div class="card col-4" style="width: 350px; height: fit-content;">
-                <h5 class="card-header">Búi tóc</h5>
-                <img src="t3.jpg" height="200px" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <p class="card-text"></p>
-                  <a href="productinfo3.html" class="stretched-link"></a>
-                  <a href="#" class="btn btn-primary float-end">Thêm vào giỏ hàng</a>
-                </div>
-              </div>
-              <div class="card col-4" style="width: 350px; height: fit-content;">
-                <h5 class="card-header">Tóc đuôi ngựa</h5>
-                <img src="t4.jpg" height="200px" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <p class="card-text"></p>
-                  <a href="productinfo4.html" class="stretched-link"></a>
-                  <a href="#" class="btn btn-primary float-end">Thêm vào giỏ hàng</a>
-                </div>
-              </div>
-              <div class="card col-4" style="width: 350px; height: fit-content;">
-                <h5 class="card-header">Tóc ngắn</h5>
-                <img src="t5.jpg" height="200px" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <p class="card-text"></p>
-                  <a href="productinfo5.html" class="stretched-link"></a>
-                  <a href="#" class="btn btn-primary float-end">Thêm vào giỏ hàng</a>
-                </div>
-              </div>
-
             </div>
           </div>
           <div class="col-2">
@@ -238,7 +256,6 @@
               </div>
               <ul class="list-group list-group-flush">
                 <li class="list-group-item">LNHA</li>
-
               </ul>
             </div>
             <div class="card" style="width: 14rem; margin-top: 10px">
