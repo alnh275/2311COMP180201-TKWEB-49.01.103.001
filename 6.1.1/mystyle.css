@@ -1,0 +1,205 @@
+#shark{
+    left: 100px;
+    top: 400px;
+position: absolute;
+animation-name: Shark;
+animation-duration: 10s;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+animation-play-state: running;
+}
+
+@keyframes Shark 
+{
+    0% { left: 100px; top: 400px; }
+    20% { left: 300px; top: 400px; }
+    40% { left: 500px; top: 300px; }
+    50% { left: 600px; top: 50px; }
+    60% { left: 700px; top: 100px;  }
+    80% { left: 500px; top: 200px; }
+    100% { left: 100px; top: 400px; transform: scaleX(-1); }
+}
+
+#background 
+{
+    position: relative;
+    width: 100%;
+    height: 800px;
+}
+#faint{
+    animation-name:Faint;
+    left: 800px;
+top: 600px;
+position: absolute;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+animation-play-state: running;
+animation-duration: 5s;
+}
+@keyframes Faint
+{
+    0% { left:800px ; top: 600px; }
+    20% { right:300px; top: 600px; }
+    40% { right: 350px; top: 500px; }
+    50% { right: 360px; top: 400px; }
+    60% { right: 400px; top: 300px;  }
+    80% {right :500px; top: 200px; }
+    100% { right: 500px; top: 100px; transform: scaleX(-1); }
+}
+#turtle{
+    animation-name:Turtle;
+    right: 200px;
+top: 500px;
+position: absolute;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+animation-play-state: running;
+animation-duration: 30s;
+-moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+}
+@keyframes Turtle
+{
+    0% { right:200px ; top: 500px; }
+    20% { right:400px; top: 500px; }
+    40% { right: 600px; top: 550px; }
+    50% { right: 700px; top: 550px; }
+    60% { right: 900px; top: 500px;  }
+    80% {right :1100px; top: 450px; }
+    100% { right: 1200px; top: 550px; transform: scaleX(-1); }
+}
+#gfish{
+    
+        animation-name:Gfish;
+        left: 300px;
+    top: 200px;
+    position: absolute;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-duration: 20s;
+    
+}
+@keyframes Gfish
+{
+    0% { left: 300px; top: 200px; }
+    20% { left: 500px; top: 400px; }
+    40% { left: 700px; top: 250px; }
+    50% { left: 900px; top: 300px; }
+    60% { left: 950px; top: 100px;  }
+    80% { left: 800px; top: 200px; }
+    100% { left: 750px; top: 50px; transform: scaleX(-1); }}
+
+    #d1{
+        animation-name:d1;
+        left: 50px;
+    top: 750px;
+    position: absolute;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-duration: 23s;
+
+}
+@keyframes d1
+{
+    0% { left: 50px; top: 750px; }
+    20% { left: 150px; top: 660px; }
+    40% { left: 200px; top: 550px; }
+    50% { left: 400px; top: 500px; }
+    60% { left: 600px; top: 300px;  }
+    80% { left: 900px; top: 200px; }
+    100% { left: 900px; top: 50px; transform: scaleX(-1); }}
+    #d2{
+        animation-name:d2;
+        right: 100px;
+    top: 50px;
+    position: absolute;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-duration: 20s;
+    -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+
+}
+@keyframes d2
+{
+    0% { right: 50px; top: 50px; }
+    20% { right: 300px; top: 150px; }
+    40% { right: 400px; top: 200px; }
+    50% { right: 500px; top: 400px; }
+    60% { right: 700px; top: 650px;  }
+    80% { right: 1100px; top: 700px; }
+    100% { right: 1400px; top: 800px; transform: scaleX(-1); }}
+    #d3{
+        animation-name:d3;
+        left: 50px;
+    top: 0px;
+    position: absolute;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-duration: 20s;
+   
+
+}
+@keyframes d3
+{
+    0% { left: 50px; top: 0px; }
+    20% { left: 150px; top: 100px; }
+    40% { left: 300px; top: 250px; }
+    50% { left: 500px; top: 400px; }
+    60% { left: 800px; top: 650px;  }
+    80% { left: 1000px; top: 750px; }
+    100% { left: 1300px; top: 800px; transform: scaleX(-1); }}
+
+#sua{
+    
+    animation-name:Sua;
+    left: 900px;
+top: 500px;
+position: absolute;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+animation-play-state: running;
+animation-duration: 30s;
+}
+@keyframes Sua
+{
+    0% { left:900px ; top: 600px; }
+    20% { right:300px; top: 600px; }
+    40% { right: 350px; top: 500px; }
+    50% { right: 360px; top: 400px; }
+    60% { right: 400px; top: 300px;  }
+    80% {right :500px; top: 200px; }
+    100% { right: 500px; top: 100px; transform: scaleX(-1); }
+}
+#nemo{
+    animation-name:Nemo;
+    left: 200px;
+top: 200px;
+position: absolute;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+animation-play-state: running;
+animation-duration: 20s;
+}
+@keyframes Nemo
+{
+    0% { left:600px ; top: 200px; }
+    20% { left:500px; top: 100px; }
+    40% { left: 400px; top: 50px; }
+    50% { left: 300px; top: 250px; }
+    60% { left: 200px; top: 300px;  }
+    80% {left :100px; top: 250px; }
+    100% {left: 5000px; top: 3000px; transform: scaleX(-1); }
+}
